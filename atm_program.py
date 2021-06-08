@@ -10,7 +10,7 @@ while True:
     id = int(input("Masukkan pin anda: "))
     trial = 0
 
-    while (id != int(bank_abc.pin_atm()) and trial < 3):
+    while (id != int(bank_abc.pin_atm()) and trial < 12):
         id = int(input("Pin anda salah. Silakan Masukkan lagi: "))
 
         trial += 1
